@@ -275,33 +275,33 @@ Finally, I learned that reconnaissance and scanning must always be performed wit
 # 📸 8. Evidences Collected
 
 
-![](22222222222222222.jpg)
+![](22222222222222222.JPG)
 
-![](PM1.jpg)
+![](PM1.JPG)
 
-![](PM12.jpg)
+![](PM12.JPG)
 
-![](PM13.jpg)
+![](PM13.JPG)
 
-![](PM14.jpg)
+![](PM14.JPG)
 
-![](PM15.jpg)
+![](PM15.JPG)
 
-![](PM16.jpg)
+![](PM16.JPG)
 
-![](PM41.jpg)
+![](PM41.JPG)
 
-![](PM42.jpg)
+![](PM42.JPG)
 
-![](PM43.jpg)
+![](PM43.JPG)
 
-![](PM51.jpg)
+![](PM51.JPG)
 
-![](PM52.jpg)
+![](PM52.JPG)
 
-![](PM53.jpg)
+![](PM53.JPG)
 
-![](33333333333.jpg)
+![](33333333333.JPG)
 
 # 👤 Author
 
