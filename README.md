@@ -89,7 +89,7 @@ First, I used WHOIS to obtain publicly available domain registration information
 whois networkwalks.com
 ```
 ## WHOIS evidence
-![](PM1.jpg)
+![](PM1.JPG)
 
 ### WhatWeb
 
@@ -99,7 +99,7 @@ I then used WhatWeb to identify technologies used by the website. The results id
 whatweb networkwalks.com
 ```
 
-![WhatWeb evidence](PM12.jpg)
+![WhatWeb evidence](PM12.JPG)
 
 ### Nslookup
 
@@ -113,7 +113,7 @@ Using Nslookup, I resolved the domain name to its IP address. The provided resul
 nslookup networkwalks.com
 ```
 
-![Nslookup evidence](PMI3.jpg)
+![Nslookup evidence](PMI3.JPG)
 
 ### Curl
 
@@ -123,7 +123,7 @@ I used Curl with the `-I` option to inspect the HTTP response headers. This prov
 curl -I https://networkwalks.com
 ```
 
-![Curl evidence](PM14.jpg)
+![Curl evidence](PM14.JPG)
 
 ### Wafw00f
 
@@ -133,7 +133,7 @@ Next, I used Wafw00f to determine whether a Web Application Firewall was protect
 wafw00f networkwalks.com
 ```
 
-![Wafw00f evidence](PM15.jpg)
+![Wafw00f evidence](PM15.JPG)
 
 ### DNSRecon
 
@@ -143,19 +143,19 @@ Finally, I used DNSRecon to enumerate DNS records. The results provided informat
 dnsrecon -d networkwalks.com
 ```
 
-![DNSRecon evidence](PM16.jpg)
+![DNSRecon evidence](PM16.JPG)
 
 ---
 ## 4.2 Footprinting & Reconnaissance with theHarvester
 I performed an additional footprinting and reconnaissance activity using theHarvester against the assigned microsoft.com domain. The purpose of this activity was to collect publicly available information from external sources, particularly email addresses, subdomains and hosts associated with the target domain.
 
 The first search used Baidu as the selected source with a result limit of 1000. 
-![](PM42.jpg)
+![](PM42.JPG)
  
 
 The second search used all sources available to the installed version of theHarvester with a result limit of 50. 
  
- ![](33333333333.jpg)
+ ![](33333333333.JPG)
 
 This activity demonstrated the value of passive information gathering because publicly available information can reveal parts of an organization's external footprint without attempting to exploit the target. The results may vary depending on the available public sources, their current content, and any source-specific configuration or API requirements.
 
@@ -181,11 +181,11 @@ ipconfig
 
 ### Zenmap Ping Scan
 
-![Zenmap scan evidence](PM53.jpg)
+![Zenmap scan evidence](PM53.JPG)
 
 ### Zenmap Network Topology
 
-![Zenmap topology evidence](PM52.jpg)
+![Zenmap topology evidence](PM52.JPG)
 
 ---
 
