@@ -93,7 +93,7 @@ whois networkwalks.com
 
 ### WhatWeb
 
-I then used WhatWeb to identify technologies used by the website. The results identified **WordPress 7.0.4** and **WP Download Manager 3.3.58**, along with other information exposed by the website.
+I then used WhatWeb to identify technologies used by the website. The results identified **WordPress 7.1** and **WP Download Manager 3.3.58**, along with other information exposed by the website.
 
 ```bash
 whatweb networkwalks.com
