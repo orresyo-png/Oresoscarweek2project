@@ -19,10 +19,10 @@
 | **Focus** | Footprinting & Network Scanning Phases |
 | **Program** | Cybersecurity Program at Networkwalks |
 | **Week** | 02 |
-| **Pentester** | Emmanuel John |
-| **Program / Batch** | B082-Networkwalks |
+| **Pentester** | ORES MWIJAGE OSCAR |
+| **Program / Batch** | B083-Networkwalks |
 | **Date** | 17 August 2026 |
-| **Modules Completed** | W2-PM1 — Multiple Kali Tools; W2-PM5 — Zenmap Scanning |
+| **Modules Completed** | W2-PM1 — Multiple Kali Tools, W2-PM4 theHarvester; W2-PM5 — Zenmap Scanning |
 | **Client / Target** | Networkwalks — secured written permission |
 | **Additional Target** | My own local LAN Network |
 | **Permission Secured** | Yes |
@@ -89,7 +89,7 @@ First, I used WHOIS to obtain publicly available domain registration information
 whois networkwalks.com
 ```
 
-![WHOIS evidence](screenshots/evidence-1.png)
+![WHOIS evidence](PM1.jpg)
 
 ### WhatWeb
 
@@ -99,7 +99,7 @@ I then used WhatWeb to identify technologies used by the website. The results id
 whatweb networkwalks.com
 ```
 
-![WhatWeb evidence](screenshots/evidence-2.png)
+![WhatWeb evidence](PM12.jpg)
 
 ### Nslookup
 
@@ -113,7 +113,7 @@ Using Nslookup, I resolved the domain name to its IP address. The provided resul
 nslookup networkwalks.com
 ```
 
-![Nslookup evidence](screenshots/evidence-3.png)
+![Nslookup evidence](PMI3.jpg)
 
 ### Curl
 
@@ -123,7 +123,7 @@ I used Curl with the `-I` option to inspect the HTTP response headers. This prov
 curl -I https://networkwalks.com
 ```
 
-![Curl evidence](screenshots/evidence-4.png)
+![Curl evidence](PM14.jpg)
 
 ### Wafw00f
 
@@ -133,7 +133,7 @@ Next, I used Wafw00f to determine whether a Web Application Firewall was protect
 wafw00f networkwalks.com
 ```
 
-![Wafw00f evidence](screenshots/evidence-5.png)
+![Wafw00f evidence](PM15.jpg)
 
 ### DNSRecon
 
@@ -143,11 +143,24 @@ Finally, I used DNSRecon to enumerate DNS records. The results provided informat
 dnsrecon -d networkwalks.com
 ```
 
-> **DNSRecon evidence:** The supplied sample report describes the DNSRecon result, but no separate DNSRecon screenshot is embedded in the uploaded document.
+![DNSRecon evidence](PM16.jpg)
 
 ---
+## 4.2 Footprinting & Reconnaissance with theHarvester
+I performed an additional footprinting and reconnaissance activity using theHarvester against the assigned microsoft.com domain. The purpose of this activity was to collect publicly available information from external sources, particularly email addresses, subdomains and hosts associated with the target domain.
 
-## 4.2 Network Scanning with Zenmap
+The first search used Baidu as the selected source with a result limit of 1000. 
+![](PM42.jpg)
+ 
+
+The second search used all sources available to the installed version of theHarvester with a result limit of 50. 
+ 
+ ![](33333333333.jpg)
+
+This activity demonstrated the value of passive information gathering because publicly available information can reveal parts of an organization's external footprint without attempting to exploit the target. The results may vary depending on the available public sources, their current content, and any source-specific configuration or API requirements.
+
+
+## 4.3 Network Scanning with Zenmap
 
 For the second activity, I used **Zenmap** to perform network discovery on my local network.
 
@@ -155,16 +168,6 @@ The practical required me to identify my local IP address and subnet, discover l
 
 I first used the Windows `ipconfig` command to identify my local IP address and LAN subnet. I then entered the subnet into Zenmap and selected **Ping Scan** to identify active hosts.
 
-The example results provided in the practical identified four live hosts:
-
-```text
-10.0.0.1
-10.0.0.4
-10.0.0.19
-10.0.0.5
-```
-
-The example results also included four MAC addresses.
 
 After completing the scan, I opened the **Topology** section in Zenmap, enabled the legend and saved the network topology in PDF format as required by the practical.
 
@@ -176,15 +179,13 @@ After completing the scan, I opened the **Topology** section in Zenmap, enabled 
 ipconfig
 ```
 
-![Zenmap scan evidence](screenshots/evidence-6.png)
-
 ### Zenmap Ping Scan
 
-![Zenmap scan evidence](screenshots/evidence-6.png)
+![Zenmap scan evidence](PM53.jpg)
 
 ### Zenmap Network Topology
 
-![Zenmap topology evidence](screenshots/evidence-7.png)
+![Zenmap topology evidence](PM52.jpg)
 
 ---
 
@@ -273,45 +274,40 @@ Finally, I learned that reconnaissance and scanning must always be performed wit
 
 # 📸 8. Evidences Collected
 
-## WHOIS
 
-![WHOIS](screenshots/evidence-1.png)
+![](22222222222222222.jpg)
 
-## WhatWeb
+![](PM1.jpg)
 
-![WhatWeb](screenshots/evidence-2.png)
+![](PM12.jpg)
 
-## Nslookup
+![](PM13.jpg)
 
-![Nslookup](screenshots/evidence-3.png)
+![](PM14.jpg)
 
-## Curl
+![](PM15.jpg)
 
-![Curl](screenshots/evidence-4.png)
+![](PM16.jpg)
 
-## Wafw00f
+![](PM41.jpg)
 
-![Wafw00f](screenshots/evidence-5.png)
+![](PM42.jpg)
 
-## DNSRecon
+![](PM43.jpg)
 
-> **DNSRecon:** No separate screenshot is embedded in the supplied sample report.
+![](PM51.jpg)
 
-## Zenmap Scan
+![](PM52.jpg)
 
-![Zenmap Scan](screenshots/evidence-6.png)
+![](PM53.jpg)
 
-## Zenmap Topology
-
-![Zenmap Topology](screenshots/evidence-7.png)
-
----
+![](33333333333.jpg)
 
 # 👤 Author
 
-**Emmanuel John**
+**ORES MWIJAGE OSCAR**
 
-Cybersecurity Professional — B082
+Cybersecurity Professional — B083
 
 **Program:** Cybersecurity Program at Networkwalks  
 **Week:** 02  
