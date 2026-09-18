@@ -113,7 +113,7 @@ Using Nslookup, I resolved the domain name to its IP address. The provided resul
 nslookup networkwalks.com
 ```
 
-![Nslookup evidence](PMI3.JPG)
+![Nslookup evidence](PM13.JPG)
 
 ### Curl
 
