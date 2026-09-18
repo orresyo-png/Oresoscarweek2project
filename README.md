@@ -88,8 +88,8 @@ First, I used WHOIS to obtain publicly available domain registration information
 ```bash
 whois networkwalks.com
 ```
-
-![WHOIS evidence](PM1.jpg)
+## WHOIS evidence
+![](PM1.jpg)
 
 ### WhatWeb
 
